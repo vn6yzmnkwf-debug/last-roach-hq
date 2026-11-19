@@ -1,0 +1,25 @@
+{
+  "name": "Last Roach",
+  "timestamp": "2026-11-19T08:57:30Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "logoURI": "https://vn6yzmnkwf-debug.github.io/last-roach-hq/marca/last-roach-token.png",
+  "keywords": [
+    "base",
+    "lroach",
+    "meme"
+  ],
+  "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0xEFf682f18aC06F8B5B239a4693EFa83Bd3cCcCCC",
+      "name": "Last Roach",
+      "symbol": "LROACH",
+      "decimals": 18,
+      "logoURI": "https://vn6yzmnkwf-debug.github.io/last-roach-hq/marca/last-roach-token.png"
+    }
+  ]
+}
