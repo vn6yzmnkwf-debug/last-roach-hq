@@ -1,12 +1,12 @@
 {
   "name": "Last Roach",
-  "timestamp": "2026-11-19T08:57:30Z",
+  "timestamp": "2026-11-20T21:57:45.804Z",
   "version": {
     "major": 1,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   },
-  "logoURI": "https://vn6yzmnkwf-debug.github.io/last-roach-hq/marca/last-roach-token.png",
+  "logoURI": "https://vn6yzmnkwf-debug.github.io/last-roach-hq/marca/last-roach-token-v12.png",
   "keywords": [
     "base",
     "lroach",
@@ -19,7 +19,7 @@
       "name": "Last Roach",
       "symbol": "LROACH",
       "decimals": 18,
-      "logoURI": "https://vn6yzmnkwf-debug.github.io/last-roach-hq/marca/last-roach-token.png"
+      "logoURI": "https://vn6yzmnkwf-debug.github.io/last-roach-hq/marca/last-roach-token-v12.png"
     }
   ]
 }
