@@ -45,6 +45,7 @@ h1,h2,h3{font:800 1rem/.94 "Barlow Condensed",Impact,Arial,sans-serif;margin:0}h
 .info{border-block:2px solid var(--ink);background:var(--green)}.info-grid{display:grid;grid-template-columns:minmax(250px,.9fr) 1fr;gap:clamp(1.2rem,5vw,4rem);align-items:start}.facts{background:var(--paper);border:2px solid var(--ink);border-radius:1rem;padding:.35rem 1.2rem;margin:0}.facts div{display:grid;grid-template-columns:minmax(9ch,1fr) minmax(12ch,1.15fr);gap:.7rem;padding:.62rem .05rem}.facts div+div{border-top:1px solid var(--line)}.facts dt{color:var(--forest)}.facts dd{margin:0}.factnote{color:#172c24}.footer{background:var(--ink);color:var(--cream)}.footer-inner{padding-block:1.4rem;display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:1rem}.footer small{font-size:.88rem}
 @media(max-width:770px){.hero-inner{grid-template-columns:1fr 1fr;gap:1rem;min-height:0}.hero-art{min-height:0;margin-inline:.3rem}.hero-art img{max-height:425px}h1{font-size:clamp(4rem,12.8vw,6.75rem)}.gallery{gap:.85rem}.gallery figcaption{font-size:.88rem}}
 @media(max-width:560px){.header-inner{min-height:64px}.header-inner nav{gap:.7rem;font-size:.83rem}.header-inner .brand{font-size:1.18rem;gap:.33rem}.brand img{width:30px}.hero-inner{grid-template-columns:1fr;padding-block:2.2rem 2.65rem;gap:1.8rem}.hero-copy{margin-bottom:1.1em}.hero-art{max-width:440px;min-height:295px;margin-inline:auto;width:min(100%,86vw)}.hero-art img{max-height:340px}.hero-art::before{width:84%;outline-offset:6px}.hero-art::after{right:3%}.gallery{grid-template-columns:1fr;max-width:420px;gap:1.3rem}.info-grid{grid-template-columns:1fr}}
+.buy-section{background:var(--cream);border-bottom:2px solid var(--ink)}.buy-lead{max-width:73ch}.buy-layout{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(275px,.8fr);gap:clamp(1.1rem,4vw,3rem);align-items:start;margin-top:1.4rem}.buy-steps{counter-reset:buy;list-style:none;margin:0;padding:0}.buy-steps li{counter-increment:buy;position:relative;padding:.15rem .4rem 1.1rem 3.1rem;min-height:3.3rem}.buy-steps li::before{content:counter(buy);position:absolute;left:0;top:.06rem;display:grid;place-items:center;width:2.25rem;height:2.25rem;background:var(--sun);border:2px solid var(--ink);border-radius:.65rem;font:800 1.25rem "Barlow Condensed",Impact,sans-serif}.buy-steps li+li{border-top:1px solid var(--line);padding-top:1.1rem}.buy-steps li+li::before{top:1.05rem}.buy-actions{background:var(--paper);border:2px solid var(--ink);border-radius:1rem;padding:clamp(1rem,3vw,1.35rem)}.buy-eyebrow{font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--forest);margin:0 0 .45rem}.buy-contract{font-size:.81rem;overflow-wrap:anywhere;margin:.3rem 0 1rem}.copy-button,.contract-copy{font:inherit;font-size:.92rem;cursor:pointer;border:2px solid var(--ink);border-radius:.6rem;background:transparent;color:var(--ink);padding:.68em .9em}.copy-button:hover,.contract-copy:hover{background:var(--green)}.copy-button:focus-visible,.contract-copy:focus-visible{outline:3px solid #125985;outline-offset:4px}.contract-copy{margin-top:1rem}.copy-status{min-height:1.35em;font-size:.87rem;color:var(--forest);margin:.5rem 0}.buy-actions .factnote{font-size:.91rem;margin:0}@media(max-width:760px){.buy-layout{grid-template-columns:1fr}.buy-actions{max-width:100%}}@media(max-width:430px){.buy-actions .action,.buy-actions .copy-button{width:100%}.buy-actions .links{gap:.6rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.action:hover{transform:none}}
 .sketch-copy p{min-height:7rem;margin:0;padding:1.25rem;font-size:1.1rem}.sketch-copy strong{font-family:Barlow Condensed,Barlow,sans-serif;font-size:1.45rem}
 </style>
@@ -54,7 +55,7 @@ h1,h2,h3{font:800 1rem/.94 "Barlow Condensed",Impact,Arial,sans-serif;margin:0}h
 <header class="header">
 <div class="bound header-inner">
 <a class="brand" href="#home"><img src="marca/avatar.webp" alt="" width="38" height="38"> LAST ROACH</a>
-<nav aria-label="Main navigation"><a href="#memes">Sketches</a><a href="#token">Token details</a><a href="#community">Community</a></nav>
+<nav aria-label="Main navigation"><a href="#buy">How to buy</a><a href="#memes">Sketches</a><a href="#token">Token details</a><a href="#community">Community</a></nav>
 </div>
 </header>
 <main id="main">
@@ -65,9 +66,33 @@ h1,h2,h3{font:800 1rem/.94 "Barlow Condensed",Impact,Arial,sans-serif;margin:0}h
 <h1><span>Last</span> <span>Roach</span></h1>
 <p class="slogan">Every legend starts somewhere.</p>
 <p class="hero-copy">One grinning cockroach. A world of chaos. An original meme character with a story of his own. Everyone left. But I stayed!</p>
-<div class="links"><a class="action" href="#memes">Follow the story</a><a class="detail-link" href="#token">Discover the project</a></div>
+<div class="links"><a class="action" href="#buy">How to buy LROACH</a><a class="detail-link" href="#memes">Follow the story</a></div>
 </div>
 <figure class="hero-art"><img src="marca/mascote.webp" srcset="marca/mascote-340.webp 340w, marca/mascote-440.webp 440w, marca/mascote.webp 569w" sizes="(max-width: 560px) 210px, (max-width: 770px) 263px, 347px" width="569" height="920" alt="Smiling cartoon cockroach in a yellow shirt with a radiation symbol, standing on Earth." fetchpriority="high"></figure>
+</div>
+</section>
+<section class="section buy-section" id="buy" aria-labelledby="buy-title">
+<div class="bound">
+<span class="kicker">LROACH on Base · independent wallet</span>
+<h2 id="buy-title">How to buy LROACH on mobile</h2>
+<p class="buy-lead">The creator completed a buy and a sell using a mobile wallet on November 20, 2026. Desktop QR / WalletConnect failed in testing. The mobile wallet route below worked for that wallet, but it is not a guarantee for other wallets or future trades.</p>
+<div class="buy-layout">
+<ol class="buy-steps">
+<li><strong>Open MetaMask on your phone.</strong> Use its in-app browser, not a separate desktop QR connection. If you do not have a wallet yet, set one up securely and keep your recovery phrase private.</li>
+<li><strong>Have a small amount of ETH on the Base network.</strong> Confirm your wallet shows Base (chain ID 8453) and leave enough ETH for network fees. ETH on a different network is not automatically available on Base.</li>
+<li><strong>Open the official LROACH page on Clanker</strong> from the MetaMask in-app browser, using the link below. If this page is open in Safari or Chrome, copy the Clanker URL and paste it into the wallet browser.</li>
+<li><strong>Check the quote before you approve.</strong> Verify the exact token address, ETH amount, estimated LROACH, 3% launch-pool buy tax where applicable, wallet fees, slippage and gas. Review the transaction in your wallet. Only you decide whether to confirm.</li>
+<li><strong>Verify the result.</strong> Check the wallet activity and, if needed, open the transaction in the Base block explorer. A quote alone is not a completed purchase.</li>
+</ol>
+<div class="buy-actions">
+<p class="buy-eyebrow">Official token · Base</p>
+<p class="buy-contract"><code>0xEFf682f18aC06F8B5B239a4693EFa83Bd3cCcCCC</code></p>
+<div class="links"><a class="action" href="https://www.clanker.world/clanker/0xEFf682f18aC06F8B5B239a4693EFa83Bd3cCcCCC" target="_blank" rel="noopener noreferrer">Open LROACH on Clanker</a><button type="button" class="copy-button" data-copy="https://www.clanker.world/clanker/0xEFf682f18aC06F8B5B239a4693EFa83Bd3cCcCCC">Copy trading link</button></div>
+<button type="button" class="contract-copy" data-copy="0xEFf682f18aC06F8B5B239a4693EFa83Bd3cCcCCC">Copy token contract</button>
+<p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+<p class="factnote"><strong>Important:</strong> Never send ETH to the token contract or to anyone promising to buy on your behalf. No guaranteed price, profit or swap execution. Crypto can lose all its value.</p>
+</div>
+</div>
 </div>
 </section>
 <section class="bound section" id="memes">
@@ -121,6 +146,19 @@ h1,h2,h3{font:800 1rem/.94 "Barlow Condensed",Impact,Arial,sans-serif;margin:0}h
 <div class="links"><a class="action" href="https://x.com/LastRoachHQ" rel="noopener noreferrer">Last Roach on X</a><a class="detail-link" href="https://t.me/LastRoachHQ" rel="noopener noreferrer">Last Roach on Telegram</a><a class="detail-link" href="https://www.reddit.com/user/lastroachhq/" rel="noopener noreferrer">Last Roach on Reddit</a></div>
 </section>
 </main>
+<script>
+document.addEventListener("click", async function (event) {
+  const button = event.target.closest("button[data-copy]");
+  if (!button) return;
+  const status = document.getElementById("copy-status");
+  try {
+    await navigator.clipboard.writeText(button.dataset.copy);
+    status.textContent = "Copied. Open the MetaMask in-app browser and paste the link.";
+  } catch (error) {
+    status.textContent = "Copy failed. Select and copy the address or link manually.";
+  }
+});
+</script>
 <footer class="footer"><div class="bound footer-inner"><span>Last Roach</span><small>Fictional sketches and character art. No wallet connection or trading on this page.</small></div></footer>
 </body>
 </html>
